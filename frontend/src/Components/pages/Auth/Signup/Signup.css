@@ -1,0 +1,106 @@
+/* Enrollment Portal Specific Styles */
+.enroll-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.enroll-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 3.5rem;
+  border: 1px solid #1a1a1a; /* Stronger border for the 'Contract' feel */
+  background: white;
+}
+
+.enroll-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.enroll-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.enroll-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #1a1a1a;
+}
+
+.input-group input, 
+.input-group select {
+  padding: 0.9rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0px; /* Keeping the sharp theme */
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input-group select {
+  background-color: #fff;
+  cursor: pointer;
+  appearance: none; /* Removes default arrow for a cleaner look */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+
+.input-group input:focus, 
+.input-group select:focus {
+  border-color: #1a1a1a;
+}
+
+.enroll-policy {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-left: 2px solid #1a1a1a;
+}
+
+.enroll-policy p {
+  font-size: 0.65rem;
+  line-height: 1.5;
+  color: #666;
+  margin: 0;
+}
+
+.enroll-btn {
+  width: 100%;
+  padding: 1.2rem !important;
+  margin-top: 0.5rem;
+}
+
+.enroll-footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.enroll-footer a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  font-weight: 700;
+}
